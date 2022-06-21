@@ -10,5 +10,5 @@ import com.darren.myblog.dto.CategoryDto;
 @Mapper
 @Repository
 public interface CategoryRepository {
-	public List<CategoryDto> selectCategory(String user_id);
+	public List<CategoryDto> selectCategory(String blog_id);
 }

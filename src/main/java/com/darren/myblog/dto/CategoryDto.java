@@ -11,5 +11,5 @@ public class CategoryDto {
 	private Integer p_category_no;
 	private String blog_id;
 	private String category_name;
-	private Integer order;
+	private Integer category_order;
 }
